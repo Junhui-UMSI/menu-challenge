@@ -3,10 +3,15 @@ This project was intended to build a single page web application which renders m
 
 ## Install
 All the modules are wrapped up in the package json, so simply run the following command after clone this repo.
-- npm install
-- npm run
+```javascript
+npm install
+npm run
+```
 And your web app should be run in a good shape!
 
 ## API instructions
-
+- addTopLevelItem
+- removeTopLevelItem
+- addItem
+- removeItem
 
