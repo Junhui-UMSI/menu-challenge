@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import TopLevelMenuItem from './TopLevelMenuItem';
-import './nav.css';
+import './menu.css';
 
 const TOPLEVEL_LIST = ['Export', 'Save', 'Edit'];
 const MENU_LIST = {'Export': ['Export-PDF', 'Export-CSV'],
