@@ -5,7 +5,8 @@ class MenuItem extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      onClick: props.reset===true ? props.menufunc : this.clickItem,
+      onClick: props.reset===true ? props.menulevel_func : this.clickItem,
+      menuName: props.Itemvalue
     }
     this.clickItem = this.clickItem.bind(this);
   }
@@ -15,8 +16,6 @@ class MenuItem extends Component {
   }
 
   render () {
-    console.log("Menuitem: ",this.props.menufunc);
-    console.log("MenuState: ",this.state.onClick);
     return (
       <div className="menu-item">
             <a className="menu-item-link" href="#blabla" onClick={this.state.onClick}>{this.props.Itemvalue}</a>
