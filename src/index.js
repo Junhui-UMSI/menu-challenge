@@ -7,7 +7,7 @@ import './index.css';
 window.MenuComponent= MenuComponent;
 
 ReactDOM.render(
-  <div className="index" onClick={MenuComponent.test}>
+  <div className="index">
     <MenuComponent />
   </div>,
   document.getElementById('root')
